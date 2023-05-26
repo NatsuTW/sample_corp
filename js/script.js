@@ -34,14 +34,6 @@ jQuery('a[href^="#"]').on('click', function () {
   }, 300)
 })
 
-//active & inactive of nav tab
-jQuery('.js-nav-link').on('click', function () {
-  jQuery('.js-nav-link').removeClass('is-active');
-  jQuery(this).addClass('is-active');
-
-  return false;
-});
-
 //drawer menu
 jQuery('.js-hamburger-icon').on('click', function (e) {
   e.preventDefault();
@@ -88,7 +80,6 @@ jQuery('#js-form input, #js-form textarea').on('change', function () {
     submit.prop('disabled', true)
   }
 })
-
 
 //to-top button
 jQuery(window).on('scroll', function () {
