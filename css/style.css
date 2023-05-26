@@ -1815,6 +1815,7 @@ main
   visibility: hidden;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  z-index: 300;
 }
 @media (max-width: 767px) {
   .to-top-btn {
