@@ -87,9 +87,9 @@ jQuery(window).on('scroll', function () {
   let currentScrollAmount = jQuery(this).scrollTop()
 
   if (BtnShowScrollAmount < currentScrollAmount) {
-    jQuery('.to-top-btn').addClass('is-show');
-    jQuery('.to-top-btn').fadeIn(300)
+    jQuery('.js-to-top-btn').addClass('is-show');
+    jQuery('.js-to-top-btn').fadeIn(300)
   } else {
-    jQuery('.to-top-btn').removeClass('is-show');
+    jQuery('.js-to-top-btn').removeClass('is-show');
   }
 })
